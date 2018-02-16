@@ -14,39 +14,52 @@
               background-color:DodgerBlue;
           }
           h1 {
-            background-color: pink;
+            background: linear-gradient(blue, green);
             font-family:'Impact';
           }
           body {
-            background-color:pink;
             font-family:'Courier New';
-          }
-          .container {
-            background-color:red;
+            background-color: pink;
           }
       </style>
     </head>
     <body>
-      <div class="container">
+      <div class="container" class="row">
         <div class="jumbotron">
           <h1 style="color:Tomato;">Bengal Tiger</h1>
           <h1 style="color:MediumSeaGreen;"><small class="font-italic">Panthera tigris tigris</small></h1>
         </div>
       </div>
-          <div class="container" class= "col-sm-6">
-            <div class="container" style="background-color:#ff3300">
-              <p class="float:right">The website that this picture is from discusses shows where this man has been and the cool pictures of animals he's taken.</p>
-              <img src="https://artwolfe.com/wp-content/uploads/2014/06/IND0701300168-750x500.jpg" class="img-thumbnail" alt="Bengal Tiger" width="304" height="236">
-            </div>
-            <div class="container" class="col-sm-6" style="background-color:#339966">
-               <p class="float-right"> This website just has pictures that can be used as computer wallpapers.</p>
-              <img src="https://beautifulcoolwallpapers.files.wordpress.com/2011/08/whitetigercub_flowers.jpg?w=320&h=233" class="img-thumbnail" alt="Bengal Tiger" width="304" height="236">
-            </div>
-            <div class="container" class="col-sm-6" style="background-color:#000000">
-             <p class="float-right" style="color:white"> This website also has pictures of tigers from mainly pinterest that are all organised here as well as other types of pictures.</p>
-             <img src="http://graphicsheat.com/wp-content/uploads/2013/06/tigers.jpg" class="img-thumbnail" alt="Bengal Tiger" width="304" height="236">
-            </div>
+        <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail" style="background-color:#ff3300">
+          <img src="https://artwolfe.com/wp-content/uploads/2014/06/IND0701300168-750x500.jpg" class="img-thumbnail" alt="Bengal Tiger" width="304" height="236">
+          <div class="caption">
+            <p class="float:right" style="color:white">The website that this picture is from discusses shows where this man has been and the cool pictures of animals he's taken.</p>
           </div>
-        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="https://beautifulcoolwallpapers.files.wordpress.com/2011/08/whitetigercub_flowers.jpg?w=320&h=233"class="img-thumbnail" alt="Bengal Tiger" width="304" height="236">
+          <div class="caption">
+            <p class="float-right" style="color:white">This website just has pictures that can be used as computer wallpapers.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="http://graphicsheat.com/wp-content/uploads/2013/06/tigers.jpg" class="img-thumbnail" alt="Bengal Tiger" width="304" height="236">
+          <div class="caption">
+            <p class="float-right" style="color:white">This website just has pictures that can be used as computer wallpapers.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+        
+        
     </body>
 </html>
