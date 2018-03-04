@@ -1,0 +1,21 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: pink;
+      padding: 25px;
+      }
+      .jumbotron {
+        background-color: lightblue;
+      }
+      
+<li class="active"><a href="#">Home</a></li>
+     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">About</a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="">Link 1</a>
+       <a class="dropdown-item" href="">Link 2</a>
+       <a class="dropdown-item" href="">Link 3</a>
+      </div>
+     </li>

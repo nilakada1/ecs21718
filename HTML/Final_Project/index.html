@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="external.css"> 
+  <style>
+    .serif {
+      font-family: "Times New Roman", Times, serif, Courier;
+    }
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    footer {
+      background-color: #ffb3e6;
+      padding: 25px;
+      font-family: Courier;
+    }
+    .jumbotron {
+      background-color: #CAEBF2;
+      font-family: Courier;
+    }
+      
+    .dropbtn {
+      background-color: black;
+      color: white;
+      padding: 14px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: black;
+    }
+    p {
+      background-color:#ffb3e6;
+      font-family: Courier;
+      color:#00b300;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Portfolio</a>
+      </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Freshman year works</a></li>
+              <li><a href="#">Sopmore year works</a></li>
+              <li><a href="#">Junior year works</a></li>
+              <li><a href="#">Senior year works</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Friends</a></li>
+              <li><a href="#">Aesthetics</a></li>
+              <li><a href="#">Idols</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contacts</a></li>
+         </ul>
+    </div>
+  </nav>
+  <div style="background-color:#cc99ff;">
+  <div class="jumbotron">
+    <div class="container text-center" class="name">
+      <h1 class="courier" style="color:#0066cc;">Nilufar Lakada</h1>  
+      <h1 class="courier"><small style="color:#1a8cff;">Don't mind the cringe, I'm only 15.</small></h1>
+    </div>
+  </div>
+  <div style="background-color:#cc99ff;">
+    <div class="container-fluid bg-3 text-center" class="info">    
+      <h3  class="Courier" style="color:#6600ff;">Overview of the website</h3><br>
+        <div class="col-sm-3">
+          <p>My goal for this website is so that I can persoanlly remember what I exactly did during my years in highschool so that when I go to college and need to choose something to study in, I have something with all my works saved. My elementary school life didn't really do much in helping me prepare for what I actually want to do with my life. I've went through phases of being a dentist, a lawayer, a pharmacist. Now I've got this idea of being a business woman in China who supplies my dad (a business man and pharmacist) with what he needs. I wish I was able to think more realistically and be able to accomplish more realistic goals.</p>
+          <img src="https://cache-blog.credit.com/wp-content/uploads/2014/06/college-degree-american-dream.jpg" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3"> 
+          <p> As of now, being a freshman, I felt so overwhelmed and lost at the beginning of the year. I can't count and tell you how many times I had a freak outs where I would look to my friend and tell her "I want to drop out." However now, I have a "growing" friend group and seeing them so happy and being with them, I have begun to slowly find happiness in things here and there that help me go on with my "career" whatever that may be. This maybe repeated in other "things I write" here, but I've been letting loose of things and I feel more happier and less overstressed. It's not 100% good thing, but being happy is important to me right now, and I'm glad I'm on my way there.</p>
+          <img src="https://metrouk2.files.wordpress.com/2017/10/525848907.jpg?w=748&h=517&crop=1" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3"> 
+          <p>I'm so glad for all my supportive friends I've been making this year. I didn't even think I would have had any at the beginning of the year. Now if you look, I make plans to actually hangout with people and have people to tell stuff to. I have friends in Lane, friends from elementary school, even friends of my best friends at different schools. They give me that feeling of having some kind of purpose, even if its just talking about nonsense to people that mean the world to me.</p>
+          <img src="http://powerpictures.crystalgraphics.com/photo/silhouette_friends_sunset_water_cg2p842874c_th.jpg" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <p>I don't know if I'm one of the only freshman that feels this way, but most of my teachers that I have are really caring and supportive. Not trying to be nit-picky, but mainly my computer science teacher, my biology teacher, my "P.E." teacher, my Mandarin teacher, and occasionally my APHG teacher and English teacher. They all have given me weird happiness sometimes in the day whether it was a high five for participation or a praise for understanding a concept, they really did help me out. (Starting to sound like them sponsored youtube videos...)</p>
+          <img src="https://www.wpclipart.com/education/chalkboard/teacher/blackboard_teaching.png" style="width:100%" alt="Image">
+        </div>
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <div class="container text-center">
+              <footer style="font-family: Courier;">There, a little bit of what I want to do with this website. I mean who knows, I might come back 5 years later and change the whole thing just to post some memes..
+              </footer>      
+            </div>
+          </div>
+        </div>
+      </div><br>
+    </div>
+<div>
+  <div class="jumbotron">
+<footer class="container-fluid text-center" style="background-color:#ffb3e6">
+  <h2><small style="color:black;">I guess I just want to say thanks to everyone who cares about my well-being and other mushy stuff.</small></h2>
+</footer>
+</div>
+</div>
+</div>
+</body>
+</html>
